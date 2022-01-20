@@ -1,0 +1,17 @@
+Classes needed
+
+Word
+database
+player - for stats
+
+
+views
+
+word guess view
+pop ups with dialog
+stats pop up
+
+
+
+
+logic
