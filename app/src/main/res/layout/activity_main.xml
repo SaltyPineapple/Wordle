@@ -4,4 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/key_Q"
+        style="@style/keyboard"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="300dp"
+        android:text="Q"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_W"
+        style="@style/keyboard"
+        android:layout_marginBottom="256dp"
+        android:text="W"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_E"
+        style="@style/keyboard"
+        android:layout_marginBottom="372dp"
+        android:text="E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_R"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="R"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_T"
+        style="@style/keyboard"
+        android:layout_height="0dp"
+        android:layout_marginBottom="376dp"
+        android:text="T"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/key_E" />
+
+    <Button
+        android:id="@+id/key_Y"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="Y"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_U"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="U"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_I"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="I"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_O"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="O"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/key_P"
+        style="@style/keyboard"
+        android:layout_marginBottom="188dp"
+        android:text="P"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
